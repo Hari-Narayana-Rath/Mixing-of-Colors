@@ -1,4 +1,4 @@
-# 🎨 Mixing of Colors
+#  Mixing of Colors 🎨
 
 A simple Vite + React project for exploring color mixing.
 
