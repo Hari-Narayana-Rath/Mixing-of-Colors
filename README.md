@@ -1,12 +1,27 @@
-# React + Vite
+# 🎨 Mixing of Colors
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Vite + React project for exploring color mixing.
 
-Currently, two official plugins are available:
+## 🚀 Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow these steps to set up and run the project on your local machine.
 
-## Expanding the ESLint configuration
+### 1 Clone the Repository
+```bash
+git clone https://github.com/Hari-Narayana-Rath/Mixing-of-Colors.git
+cd Mixing-of-Colors
+```
+### 2 Install Dependencies
+Make sure you have Node.js installed, then run:
+```bash
+npm install
+```
+### 3 Start the Quiz data Server
+```bash
+json-server --watch data/db.json --port 3002
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 4 Start the development Server
+```bash
+npm run dev
+```
