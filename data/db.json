@@ -1,0 +1,14 @@
+{
+  "dictionary": {
+    "what happens if you remove red from white?\n\na) green\nb) blue\nc) cyan\nd) black": "c",
+    "what do you get when you mix red and blue?\n\na) purple\nb) black\nc) magenta\nd) cyan": "a",
+    "what do you get when you mix red and yellow?\n\na) blue\nb) purple\nc) orange\nd) cyan": "c",
+    "what do you get when you mix blue and yellow?\n\na) green\nb) red\nc) white\nd) black": "a",
+    "what are the primary colors in RGB?\n\na) red, green, blue\nb) cyan, magenta, yellow\nc) black, white, gray\nd) blue, yellow, red": "a",
+    "what are the primary colors in CMYK?\n\na) cyan, magenta, yellow, black\nb) red, green, blue\nc) black, white, red\nd) green, purple, orange": "a",
+    "what happens if you remove green from white?\n\na) cyan\nb) magenta\nc) red\nd) purple": "b",
+    "what happens if you remove blue from white?\n\na) yellow\nb) red\nc) green\nd) black": "a",
+    "what do you get when you mix all RGB colors at full intensity?\n\na) white\nb) black\nc) cyan\nd) red": "a",
+    "what do you get when you mix all CMYK colors?\n\na) white\nb) black\nc) yellow\nd) green": "b"
+  }
+}

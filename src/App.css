@@ -1,0 +1,126 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 83vh;
+  background-color: #000;
+  padding: 20px;
+  border-radius: 30px;
+  /* width: 210%; */
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #ffffff;
+  border: 2px solid #555;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #e16389;
+  color: #fff;
+}
+
+.circle-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+
+.big-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+}
+
+.circle-left {
+  left: -200px;
+  animation: moveToCenterLeft 1s forwards; /* Fast movement */
+}
+
+.circle-middle {
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  animation: moveToCenterMiddle 1s forwards; /* Fast movement */
+}
+
+.circle-right {
+  right: -200px;
+  animation: moveToCenterRight 1s forwards; /* Fast movement */
+}
+
+.center-circle {
+  opacity: 0; /* Start fully transparent */
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 1; /* Ensure it stays on top */
+  animation: fadeIn 3s 1s forwards; /* Slow fade-in (5s) with 1s delay */
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0; /* Start fully transparent */
+  }
+  to {
+      opacity: 1; /* Gradually become fully visible */
+  }
+}
+.color-name {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px #000;
+}
+.quiz-button {
+  margin-top: 20px;
+  background-color: #e16389;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.5s ease;
+  color: #fff;
+}
+
+.quiz-button:hover {
+  background-color: #c04d6e;
+}
+
+@keyframes moveToCenterLeft {
+  to {
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      opacity: 1;
+  }
+}
+
+@keyframes moveToCenterMiddle {
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes moveToCenterRight {
+  to {
+      right: 50%;
+      transform: translateX(50%) translateY(-50%);
+      opacity: 1;
+  }
+}

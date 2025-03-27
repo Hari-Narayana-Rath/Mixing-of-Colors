@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('dgg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+.question-box p {
+  white-space: pre-line;
+}
+
+.main-container {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  align-items: center;
+}
+
+.box {
+  background: linear-gradient(135deg, #5a5858 40%, #9b05cd 100%);
+  border: 6px solid #030001c3;
+  border-radius: 30px;
+  padding: 20px;
+  width: 100%;
+  max-width: 320px;
+  box-shadow: 0 10px 25px rgba(225, 99, 137, 0.2),0 4px 8px rgba(9, 93, 154, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  font-weight: bold;
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #01191f;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin: 0 10px; /* Adds space on both sides */
+}
+
+.box:hover {
+  background: linear-gradient(135deg, 	#e16389 30%, #ffffff 100%);
+  transform: scale(1.08);
+  box-shadow: 0 12px 30px rgba(225, 99, 137, 0.4),
+    0 6px 12px rgba(9, 93, 154, 0.15);
+}
+
+.box:active {
+  transform: scale(0.95);
+  background: #ffffff;
+}
+
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  color: #095d9a;
+}
+
+.add-text-container,
+.start-quiz-container {
+  background: #eec095bb;
+  border: 3px solid #e16389;
+  border-radius: 60px;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 20px rgba(225, 99, 137, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.title {
+  color: 	#095d9a;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.question-box,
+.input-box,
+.button-box,
+.result-box {
+  background: #db9191f2;
+  border: 2px solid #e16389;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(9, 93, 154, 0.2);
+  text-align: left;
+  font-size: 20px;
+}
+
+input {
+  width: 94%;
+  padding: 9px;
+  border: 2px solid #e16389;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #5a5858;
+  font-size: 16px;
+  outline: none;
+  text-align: center;
+}
+
+button {
+  background: #e16389;
+  color: #000000;
+  border: 2px solid #095d9a;
+  border-radius: 20px;
+  padding: 12px 24px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition: background 0.3s ease, border 0.3s ease;
+}
+
+button:hover {
+  background: #095d9a;
+  border-color: black;
+}
+
+.result-box p {
+  font-weight: bold;
+  color: #095d9a;
+}
