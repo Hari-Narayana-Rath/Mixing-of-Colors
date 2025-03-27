@@ -44,7 +44,6 @@ function App() {
                 <button onClick={() => handleMix('Red', '#ff0000', '#00ffff', '#ffff00')}>C + Y</button>
             </div>
 
-            {/* Start Quiz Button */}
             <button className="quiz-button" onClick={() => navigate('/quiz')}>Start Quiz</button>
         </div>
     );
